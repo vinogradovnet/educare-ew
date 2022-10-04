@@ -1,7 +1,8 @@
 ---
 author: Mihail Epshtein
-title: The Janusz Korczak Institute for Alternative Education
-date: 2022-10-04T11:50:14.530Z
+title: The International Association of Experts in Children Education of High
+  Technologies
+date: 2022-10-04T12:02:21.108Z
 tags:
   - Partner
 categories: About Us
@@ -9,7 +10,6 @@ weight: 0
 cover:
   hidden: false
   relative: false
-  image: /images/uploads/alteredu.png
 editPost:
   URL: ""
   Text: ""
@@ -29,6 +29,6 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-Our partner **The Janusz Korczak Institute for Alternative Education** (St.Petersburg, Russia)
+Our partner **The International Association of Experts in Children Education of High Technologies** (Riga, Latvia)
 
-[alteredu.ru](https://alteredu.ru)
+***[experts-edu.org](https://experts-edu.org/)***
