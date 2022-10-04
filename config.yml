@@ -1,7 +1,8 @@
 baseURL: "/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Educare East-West
-paginate: 5
+paginate: 10
 theme: PaperModX
+
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -14,7 +15,7 @@ pygmentsUseClasses: true
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    minifyOutput: true
 
 languages:
     en:
@@ -27,17 +28,21 @@ languages:
         menu:
             main:
                 - name: About Us
-                  url: categories/about-us
+                  url: posts/about-us
                   weight: 1
-                - name: Archive
-                  url: archives
-                  weight: 99
+                - name: Janusz Korczak's Pedagogy
+                  url: tags/korczak
+                  weight: 2
+                - name: Math for All
+                  url: tags/math
+                  weight: 3
+                - name: Educational Consulting, Join Projects
+                  url: tags/consulting
+                  weight: 4
                 - name: Search
                   url: search/
                   weight: 100
-                - name: Tags
-                  url: tags/
-                  weight: 10
+
 
 outputs:
     home:
@@ -46,6 +51,7 @@ outputs:
         - JSON
 
 params:
+    disableScrollToTop: false
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "The site presents the implemented and current projects of the company and possible areas of cooperation with potential partners."
     author: Mihail Epshtein
@@ -58,7 +64,7 @@ params:
     # disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: true
