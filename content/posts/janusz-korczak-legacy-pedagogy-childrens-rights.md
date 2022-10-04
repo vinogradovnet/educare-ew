@@ -6,7 +6,7 @@ description: Children are not the people of tomorrow, but people today. - Janusz
 tags:
   - Korczak
 categories: Korczak
-weight:
+weight: 99
 cover:
   hidden: false
   relative: false

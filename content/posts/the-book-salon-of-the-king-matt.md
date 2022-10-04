@@ -7,7 +7,7 @@ date: 2018-04-21
 tags:
   - Korczak
 categories: Korczak
-weight:
+weight: 99
 cover:
   hidden: false
   relative: false
