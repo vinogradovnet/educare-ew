@@ -29,6 +29,6 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-**\[alteredu.ru](https://**alteredu.ru**)**
+[alteredu.ru](https://alteredu.ru)
 
-**St.Petersburg, Russia**
+St.Petersburg, Russia
