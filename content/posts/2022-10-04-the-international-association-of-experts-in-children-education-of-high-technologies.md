@@ -31,4 +31,4 @@ UseHugoToc: false
 ---
 Our partner **The International Association of Experts in Children Education of High Technologies** (Riga, Latvia)
 
-***[experts-edu.org](https://experts-edu.org/)***
+[experts-edu.org](https://experts-edu.org/)
