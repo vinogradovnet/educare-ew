@@ -5,7 +5,7 @@ date: 2022-10-04T11:50:14.530Z
 tags:
   - Partners
 categories: About Us
-weight: 999
+weight: 0
 cover:
   hidden: false
   relative: false
@@ -29,6 +29,6 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-**[alteredu.ru](**alteredu.ru**)**
+**\[alteredu.ru](https://**alteredu.ru**)**
 
 **St.Petersburg, Russia**
