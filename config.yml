@@ -28,12 +28,13 @@ languages:
             main:
                 - name: About Us
                   url: categories/about-us
+                  weight: 1
                 - name: Archive
                   url: archives
-                  weight: 5
+                  weight: 99
                 - name: Search
                   url: search/
-                  weight: 10
+                  weight: 100
                 - name: Tags
                   url: tags/
                   weight: 10

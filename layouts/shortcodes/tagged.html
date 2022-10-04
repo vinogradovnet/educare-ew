@@ -1,0 +1,8 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $tag := .Get "tag" }}
+
+<ul>
+    {{ range (where .Site.AllPages "Params.tags" "intersect" (slice $tag))}}
+        <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+    {{ end }}
+</ul>

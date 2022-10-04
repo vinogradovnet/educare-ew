@@ -1,0 +1,41 @@
+{{ $_hugo_config := `{ "version": 1 }` -}}
+<section class="attachments {{ with .Get "style"}}{{.}}{{ end }}">
+  <label>
+    <h5><i class="ti-clip" aria-hidden="true"></i>
+    {{with .Get "title"}}{{.}}{{else}}{{i18n "attachments"}}{{end}}</h5>
+  </label>
+  <div class="attachments-files">
+    <table>
+      <tr>
+        <td><i class="ti-search" aria-hidden="true"></i></td>
+        <td><i class="ti-download" aria-hidden="true"></i></td>
+      </tr>
+  {{- $filesName := "files" }}
+  {{- if ne .Page.File.BaseFileName "index" }}
+    {{- $filesName = printf "%s.files" .Page.File.BaseFileName }}
+  {{- end}}
+  {{- $fileDir := replace .Page.File.Dir "\\" "/" }}
+  {{- $pattern := .Get "pattern" | default "" }}
+  {{- range (readDir (printf "%s/%s%s" .Site.Language.ContentDir .Page.File.Dir $filesName) ) }}
+    {{- if findRE $pattern .Name}}
+      {{- $size := .Size }}
+      {{- $unit := "B" }}
+      {{- if ge $size 1024 }}
+        {{- $size = div $size 1024 }}
+        {{- $unit = "Kb" }}
+      {{- end}}
+      {{- if ge $size 1024 }}
+        {{- $size = div $size 1024 }}
+        {{- $unit = "Mb" }}
+      {{- end}}
+          <tr><td>
+            <a href="https://docs.google.com/viewer?url={{ (printf "%s%s/%s" $fileDir $filesName .Name) | absLangURL }}">{{.Name}}</a>
+              </td><td>
+                <a href="{{ (printf "%s%s/%s" $fileDir $filesName .Name) | relLangURL }}">{{$size}} {{print $unit}}</a>
+          </td></tr>
+    {{- end}}
+  {{- end}}
+  </table>
+  </div>
+  {{- .Inner}}
+</section>
