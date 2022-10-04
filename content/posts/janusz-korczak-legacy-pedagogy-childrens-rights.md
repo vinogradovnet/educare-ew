@@ -30,4 +30,4 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-{{% embed-pdf url="pdf/uploads/Korczak-2018-november-Columbia.pdf"  hidePaginator="true" %}}
+{{% embed-pdf url="/pdf/uploads/Korczak-2018-november-Columbia.pdf"  hidePaginator="true" %}}

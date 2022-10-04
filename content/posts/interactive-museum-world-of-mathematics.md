@@ -36,4 +36,4 @@ Acquaintance with mathematics in this vein implies that for its development it i
 
 Often this understanding is achieved, including through practical application, showing that mathematics is not only abstract knowledge, but also a language that allows one to describe many phenomena of the surrounding life; science, the development of which helps change the world.
 
-{{% embed-pdf url="pdf/uploads/math.pdf" %}}
+{{% embed-pdf url="/pdf/uploads/math.pdf" %}}

@@ -30,4 +30,4 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-{{% embed-pdf url="pdf/uploads/Korczak-2019-metting-announcement.pdf"  hidePaginator="true" %}}
+{{% embed-pdf url="/pdf/uploads/Korczak-2019-metting-announcement.pdf"  hidePaginator="true" %}}

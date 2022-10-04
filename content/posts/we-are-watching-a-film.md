@@ -30,4 +30,4 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-{{% embed-pdf url="pdf/uploads/Korczak-2018-may-film.pdf"  hidePaginator="true" %}}
+{{% embed-pdf url="/pdf/uploads/Korczak-2018-may-film.pdf"  hidePaginator="true" %}}
