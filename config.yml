@@ -27,16 +27,16 @@ languages:
           series: series
         menu:
             main:
-                - name: About Us
+                - name: About
                   url: posts/about-us
                   weight: 1
-                - name: Janusz Korczak's Pedagogy
+                - name: J. Korczak
                   url: tags/korczak
                   weight: 2
-                - name: Math for All
+                - name: Math
                   url: tags/math
                   weight: 3
-                - name: Educational Consulting, Join Projects
+                - name: Consulting
                   url: tags/consulting
                   weight: 4
                 - name: Search
