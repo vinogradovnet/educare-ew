@@ -47,5 +47,5 @@ The site presents the implemented and current projects of the company and possib
 
 1944 Bay Ridge pkwy, 6, Brooklyn, NY, 11204
 
-email: [hello@educare-ew.com](mailto:hello@educare-ew.com)
+e-mail: [hello@educare-ew.com](mailto:hello@educare-ew.com)
 
