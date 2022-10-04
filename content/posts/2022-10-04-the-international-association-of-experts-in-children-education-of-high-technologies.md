@@ -29,4 +29,6 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-d﻿refg
+Our partner **The International Association of Experts in Children Education of High Technologies** (Riga, Latvia)
+
+***[experts-edu.org](https://experts-edu.org/)***
