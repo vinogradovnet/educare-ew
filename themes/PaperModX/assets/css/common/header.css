@@ -29,6 +29,7 @@
 .logo a {
     font-size: 24px;
     font-weight: 700;
+    font-family: 'Handlee', cursive;
 }
 
 .logo a img,
@@ -77,6 +78,7 @@ body:not(.dark) #sun {
     color: var(--secondary);
     display: inline-block;
     line-height: 1.5em;
+    font-family: 'Handlee', cursive;
 }
 #menu a:hover {
     color: var(--primary);
