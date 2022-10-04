@@ -3,7 +3,7 @@ author: Mihail Epshtein
 title: The Janusz Korczak Institute for Alternative Education
 date: 2022-10-04T11:50:14.530Z
 tags:
-  - Partners
+  - Partner
 categories: About Us
 weight: 0
 cover:
