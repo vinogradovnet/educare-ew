@@ -3,7 +3,7 @@ author: Mihail Epshtein
 title: The Janusz Korczak Institute for Alternative Education
 date: 2022-10-04T11:50:14.530Z
 tags:
-  - Partners
+  - Partner
 categories: About Us
 weight: 0
 cover:
@@ -29,6 +29,6 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-[alteredu.ru](https://alteredu.ru)
+Our partner **The Janusz Korczak Institute for Alternative Education** (St.Petersburg, Russia)
 
-St.Petersburg, Russia
+[alteredu.ru](https://alteredu.ru)
