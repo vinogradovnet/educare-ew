@@ -29,6 +29,6 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
-E﻿ducare West-East partner **The Janusz Korczak Institute for Alternative Education** (St.Petersburg, Russia)
+Our partner **The Janusz Korczak Institute for Alternative Education** (St.Petersburg, Russia)
 
 [alteredu.ru](https://alteredu.ru)
