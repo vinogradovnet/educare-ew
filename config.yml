@@ -26,6 +26,8 @@ languages:
           series: series
         menu:
             main:
+                - name: About Us
+                  url: categories/about-us
                 - name: Archive
                   url: archives
                   weight: 5
@@ -79,7 +81,7 @@ params:
         Title: "Educare East-West"
         Content: >
             <div class="post-content">
-            The main tasks of Educare East-West:
+            The main tasks of Educare East-West LLC:
             <ul><li>Acquaintance of people from different countries with each other's pedagogical discoveries,</li>
             <li>Initiation and support of intercultural projects,</li>
             <li>Educational consulting for initiative projects in the field of education,</li>
