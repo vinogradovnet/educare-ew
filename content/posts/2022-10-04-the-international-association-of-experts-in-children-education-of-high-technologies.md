@@ -10,6 +10,7 @@ weight: 0
 cover:
   hidden: false
   relative: false
+  image: /images/uploads/iaeceht-logo.png
 editPost:
   URL: ""
   Text: ""
