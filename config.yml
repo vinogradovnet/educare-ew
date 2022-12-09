@@ -39,6 +39,9 @@ languages:
                 - name: Consulting
                   url: tags/consulting
                   weight: 4
+                - name: Distance Learning
+                  url: posts/distance-learning
+                  weight: 5
                 - name: Search
                   url: search/
                   weight: 100
