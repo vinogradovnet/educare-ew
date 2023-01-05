@@ -1,0 +1,11 @@
+.payment button {
+    font-family: handlee,cursive;
+    font-weight: bold;
+    color: var(--theme);
+    background-color: var(--primary);
+    border-radius: 1em;
+    height: 2em;
+    line-height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
