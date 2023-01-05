@@ -74,7 +74,7 @@ params:
     EnableInstantClick: false
 
     # comments: false
-    images: ["papermod-cover.png"]
+    images: ["logo.jpg"]
 
     profileMode:
         enabled: false
