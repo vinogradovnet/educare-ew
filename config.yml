@@ -74,7 +74,7 @@ params:
     EnableInstantClick: false
 
     # comments: false
-    images: ["logo.jpg"]
+    images: ["/images/uploads/logo.jpg"]
 
     profileMode:
         enabled: false
